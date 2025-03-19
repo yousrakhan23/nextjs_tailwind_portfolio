@@ -15,9 +15,42 @@ import project9 from '../../public/project9.jpg';
 import project10 from '../../public/project10.jpg';
 import project11 from '../../public/project11.jpg';
 import project12 from '../../public/project12.jpg';
+import project13 from '../../public/project13.jpg';
+import project14 from '../../public/project14.jpg';
+import project15 from '../../public/project15.jpg';
+import project16 from '../../public/project16.jpg';
+import project17 from '../../public/project17.jpg';
 
 
 const projects = [
+  {
+    src: project13,
+    alt:"COMFORTY SOFA WEBSITE",
+    title: "COMFORTY SOFA WEBSITE",
+    description: "This sofa website is built with Sanity,Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for sofa items. Users can also add items to their cart and view their cart.",
+    link: "https://hackathon-202-2.vercel.app/"
+  },
+  {
+    src: project14,
+    alt: "admin panel",
+    title: "ADMIN PANEL",
+    description: "This admin panel is built with Sanity,Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for sofa items. Users can also add items to their cart and view their cart.",
+    link: "https://admin-panel-hackathon-2.vercel.app/"
+  },
+  {
+    src: project15,
+    alt: "META BLOG",
+    title: "META BLOG",
+    description: "This meta blog is built with Next.js and tailwind css,where we explore different topics and share our thoughts and ideas.",
+    link: "https://milestone-3-dynamic-blog-by-yousrakhan.vercel.app/"
+  },
+  {
+    src: project16,
+    alt: "E COMMERCE CLOTHING WEBSITE",
+    title: "E COMMERCE CLOTHING WEBSITE",
+    description: "This e-commerce clothing website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for clothing items. Users can also add items to their cart and view their cart.",
+    link: "https://e-commerce-website-milestone-3-yousra-khan.vercel.app/"
+  },
   {
     src: project1,
     alt: "MANZZARI",
@@ -52,6 +85,13 @@ const projects = [
     title: "BIRTHDAY APPLICATION",
     description: "This birthday application is built with Next.js and Tailwind CSS. It is a simple and modern birthday application that allows users to enter their birthday and see their age.",
     link: "https://day-3-of-30-days-of-nextjs-birthday-pqqtpdf6l.vercel.app/"
+  },
+  {
+    src: project17,
+    alt: "BRAND LOGOS BLOG",
+    title: "BRAND LOGOS BLOG",
+    description: "This brand logo blog is built with Next.js and Tailwind CSS. It is a simple and modern brand logo blog that allows users to view my brand logos and share them with others.",
+    link: "https://08-class-assignment-sanity-blog-nextjs.vercel.app/"
   },
   {
     src: project6,

@@ -25,7 +25,7 @@ const HeroSetion = () => {
               />
             </div>
           </h1>
-          <p className="mb-8 leading-relaxed ml-10 text-black"
+          <p className="mb-8 leading-relaxed ml-10 text-white"
              data-aos="fade-up" 
              data-aos-easing="ease-out-cubic"
              data-aos-duration="1500">
