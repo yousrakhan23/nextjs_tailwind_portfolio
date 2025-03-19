@@ -27,7 +27,7 @@ const AboutPage = () => {
 
 
           <div className="text-center lg:w-2/3 w-full mt-10">
-            <h1 className="ml-3 text-5xl font-serif font-bold text-black hover:text-white cursor-pointer transition-colors duration-500">About Me</h1>
+            <h1 className="ml-3 text-5xl font-serif font-bold text-fuchsia-400 hover:text-white cursor-pointer transition-colors duration-500">About Me</h1>
             <h2
               className="title-font sm:text-4xl text-3xl mb-4 text-white font-serif font-semibold relative overflow-hidden group"
               data-aos="fade-up"
@@ -38,7 +38,7 @@ const AboutPage = () => {
               <div className="absolute inset-x-0 bottom-0 h-1 bg-yellow-500 transform scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></div>
             </h2>
             <p
-              className="mb-8 leading-relaxed text-lg text-white hover:text-black transition-opacity duration-700 ease-in-out group-hover:opacity-90"
+              className="mb-8 leading-relaxed text-lg text-white hover:text-fuchsia-300 transition-opacity duration-700 ease-in-out group-hover:opacity-90"
               data-aos="fade-up"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
