@@ -43,7 +43,7 @@ const AboutPage = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
-            As a driven front-end developer, I am advancing my skills through a governor-initiated program, focused on mastering cutting-edge technologies. With hands-on experience in HTML, CSS, TypeScript, JavaScript, React, Next.js, and Tailwind, I have built a wide array of real-world projects that reflect both creativity and a solid grasp of modern development practices. My background in digital marketing further strengthens my ability to create user-focused solutions that not only perform well but also resonate with audiences. I am committed to continuous growth and contributing impactful solutions in the tech and marketing landscapes.
+            As a driven front-end developer, I am advancing my skills through a governor-initiated program, focused on mastering cutting-edge technologies. With hands-on experience in HTML, CSS, TypeScript, JavaScript, React, Next.js, and Tailwind, I have built a wide array of real-world projects that reflect both creativity and a solid grasp of modern development practices. My background in Graphic Designing a unique perspective, enabling me to create visually stunning and user-friendly digital experiences. I am committed to continuous growth and contributing impactful solutions in the tech and marketing landscapes.
             </p>
           </div>
         </div>

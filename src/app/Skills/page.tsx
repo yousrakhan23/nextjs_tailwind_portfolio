@@ -2,7 +2,7 @@
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AOS from 'aos';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from 'react-icons/si';
 
 interface SkillCardProps {
@@ -87,7 +87,7 @@ export default function Skills() {
           <SkillCard
             title="JavaScript"
             description="JavaScript is the world's most popular programming language.It is the programming language of the Web and easy to learn.."
-            colorClass="bg-gradient-to-r from-yellow-300 to-yellow-600"
+            colorClass="bg-gradient-to-r from-green-500 to-green-800" 
             svgIcon={
               <div className="text-white">
                 <FaJsSquare size={80} />
@@ -95,6 +95,7 @@ export default function Skills() {
             dataAos="fade-up"
             dataAosDelay="300"
           />
+       
           <SkillCard
             title="TypeScript"
             description="TypeScript is a syntactic superset of JavaScript which adds static typing."
@@ -129,12 +130,12 @@ export default function Skills() {
             dataAosDelay="600"
           />
           <SkillCard
-            title="Node.js"
-            description="Node.js is an open source server environment. It allows you to run JavaScript on the server."
-            colorClass="bg-gradient-to-r from-green-500 to-green-800"
+            title="Python"
+            description="Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable."
+            colorClass="bg-gradient-to-r from-yellow-300 to-yellow-600"
             svgIcon={
               <div className="text-white">
-                <FaNodeJs size={80} />
+                <FaPython size={80} />
               </div>}
             dataAos="fade-up"
             dataAosDelay="700"
@@ -143,9 +144,8 @@ export default function Skills() {
       </div>
 
 
-      {/* <style jsx>{`
-        // You can remove the entire keyframes and animation if not needed
-      `}</style> */}
+
     </section>
   );
 }
+

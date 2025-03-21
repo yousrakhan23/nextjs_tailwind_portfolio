@@ -20,6 +20,11 @@ import project14 from '../../public/project14.jpg';
 import project15 from '../../public/project15.jpg';
 import project16 from '../../public/project16.jpg';
 import project17 from '../../public/project17.jpg';
+import project18 from '../../public/project18.jpg';
+import project19 from '../../public/project19.jpg';
+import project20 from '../../public/project20.jpg';
+import project21 from '../../public/project21.jpg';
+
 
 
 const projects = [
@@ -45,6 +50,20 @@ const projects = [
     link: "https://milestone-3-dynamic-blog-by-yousrakhan.vercel.app/"
   },
   {
+    src: project19,
+    alt: "ASKARI INSTITUTE WEBSITE",
+    title: "ASKARI INSTITUTE WEBSITE",
+    description: "This askari institute website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for askari institute items. Users can also add items to their cart and view their cart.",
+    link: "https://askary-institute-web.vercel.app/"
+  },
+  {
+    src: project21,
+    alt: "DDSGNR INTERNATIONAL INSTIUTE WEBSITE",
+    title: "DDSGNR INTERNATIONAL INSTIUTE WEBSITE",
+    description: "This DDSGNR international institute website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for DDSGNR international institute items. Users can also add items to their cart and view their cart.",
+    link: "https://06-class-assignment-nextjs.vercel.app/"
+  },
+  {
     src: project16,
     alt: "E COMMERCE CLOTHING WEBSITE",
     title: "E COMMERCE CLOTHING WEBSITE",
@@ -52,39 +71,53 @@ const projects = [
     link: "https://e-commerce-website-milestone-3-yousra-khan.vercel.app/"
   },
   {
+    src: project18,
+    alt: "TECHNOVA SOFTWARE HOUSE WEBSITE",
+    title: "TECHNOVA SOFTWARE HOUSE WEBSITE",
+    description: "This software house website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for software house items. Users can also add items to their cart and view their cart.",
+    link: "https://technova-zeta.vercel.app/"
+  },
+  {
     src: project1,
     alt: "MANZZARI",
     title: "MANZZARI JEWELLERY WEBSITE",
     description: "This jewellery website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for jewellery items. Users can also add items to their cart and view their cart.",
-    link: "https://05-class-assignment-next-js-w25p-qtrommcu9.vercel.app/",
+    link: "https://05-class-assignment-next-js.vercel.app/",
+  },
+  {
+    src: project20,
+    alt: "RESUME",
+    title: "RESUME",
+    description: "This resume is built with HTML CSS TYPESCRIPT. It is a simple and modern resume that displays my personal information, skills, and experiences.",
+    link: "https://resume-by-yousra-khan.vercel.app/"
   },
   {
     src: project2,
     alt: "DIGITAL CLOCK APP",
     title: "DIGITAL CLOCK",
     description: "This digital clock is built with Next.js and Tailwind CSS. It is a simple and modern digital clock that displays the current time and date.",
-    link: "https://day-6-of-30-days-of-nextjs-digital-clock-o7gptnu5e.vercel.app/" 
+    link: "https://day-6-of-30-days-of-nextjs-digital-clock-app.vercel.app/" 
   },
   {
     src: project3,
     alt: "SIMPLE CALCULATOR APP",
     title: "SIMPLE CALCULATOR",
     description: "This simple calculator is built with Next.js and Tailwind CSS. It is a simple and modern calculator that performs basic arithmetic operations.",
-    link: "https://day-5-of-30-days-of-nextjs-simple-calculator-4nueka7tl.vercel.app/"
+    link: "https://day-5-of-30-days-of-nextjs-simple-calculator-app.vercel.app/"
   },
   {
     src: project4,
     alt: "NUMBER GUESSING GAME APP",
     title: "NUMBER GUESSING GAME",
     description: "This number guessing game is built with Next.js and Tailwind CSS. It is a simple and modern number guessing game that allows users to guess a number between 1 and 100.",
-    link: "https://day-4-of-30-days-of-nextjs-number-guessing-game-arbve33bu.vercel.app/"
+    link: "https://day-4-of-30-days-of-nextjs-number-guessing-game-app.vercel.app/"
   },
   {
     src: project5,
     alt: "BIRTHDAY APPLICATION",
     title: "BIRTHDAY APPLICATION",
     description: "This birthday application is built with Next.js and Tailwind CSS. It is a simple and modern birthday application that allows users to enter their birthday and see their age.",
-    link: "https://day-3-of-30-days-of-nextjs-birthday-pqqtpdf6l.vercel.app/"
+    link: "https://day-3-of-30-days-of-nextjs-birthday-app.vercel.app/"
   },
   {
     src: project17,
@@ -98,42 +131,42 @@ const projects = [
     alt: "SAFE HOME CHEMICAL WEBSITES",
     title: "SAFE HOME CHEMICAL WEBSITES",
     description: "This safe home chemical websites is built with Next.js and Tailwind CSS. It is a simple and modern safe home chemical websites that allows users to view chemical information.",
-    link: "https://03-class-assignment-next-js-6gj6-jglil2ged.vercel.app/"
+    link: "https://milestone-2-basic-ui-design-with-tailwind-css.vercel.app/"
   },
   {
     src: project7,
     alt: "HTML CSS TYPESCRIPT PORTFOLIO",
     title: "HTML CSS TYPESCRIPT PORTFOLIO",
     description: "This HTML CSS TypeScript portfolio is built with HTML CSS TYPESCRIPT/JAVASCRIPT. It is a simple and modern HTML CSS TypeScript portfolio that allows users to view my projects.",
-    link: "https://responsive-portfolio-website-using-html-css-java-ciq8u74kr.vercel.app/"
+    link: "https://responsive-portfolio-website-using-html-css-java-script.vercel.app/"
   },
   {
     src: project8,
-    alt: "UNIQYE PATH AND SHAREABLE REUME",
-    title: "UNIQYE PATH AND SHAREABLE REUME",
+    alt: "UNIQUE PATH AND SHAREABLE REUME",
+    title: "UNIQUE PATH AND SHAREABLE REUME",
     description: "This uniqye path and shareable reume is built with HTML CSS TYPE/JAVASCRIPT. It is a simple and modern uniqye path and shareable reume that allows users to view my resume.",
-    link: "https://milestone-5-unique-path-shareable-link-qqmwultk5.vercel.app/"
+    link: "https://milestone-5-unique-path-shareable-link.vercel.app/"
   },
   {
     src: project9,
     alt: "EDITABLE RESUME",
     title: "EDITABLE RESUME",
     description: "This editable resume is built with HTML CSS TYPE/JAVASCRIPT. It is a simple and modern editable resume that allows users to view my resume.",
-    link: "https://milestone-4-editable-resume-ka2tvne54-yousra-khans-projects.vercel.app/",
+    link: "https://milestone-4-editable-resume-ebon.vercel.app/",
   },
   {
     src: project10,
     alt: "DYNAMIC RESUME BUILDER",
     title: "DYNAMIC RESUME BUILDER",
     description: "This dynamic resume builder is built with HTML CSS TYPE/JAVASCRIPT. It is a simple and modern dynamic resume builder that allows users to view my resume.",
-    link: "https://milestone-2-3-dynamic-resume-builder-form-ez6borkpq.vercel.app/",
+    link: "https://milestone-2-3-dynamic-resume-builder-form.vercel.app/",
   },
   {
     src: project11,
     alt: "STATIC RESUME BUILDER",
     title: "STATIC RESUME BUILDER",
     description: "This static resume builder is built with HTML CSS TYPE/JAVASCRIPT. It is a simple and modern static resume builder that allows users to view my resume.",
-    link: "https://milestone-1-static-resume-builder-7idt94oye.vercel.app/",
+    link: "https://milestone-1-static-resume-builder.vercel.app/",
   },
   {
     src: project12,
