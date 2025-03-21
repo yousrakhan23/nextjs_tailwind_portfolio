@@ -89,7 +89,7 @@ const projects = [
     alt: "RESUME",
     title: "RESUME",
     description: "This resume is built with HTML CSS TYPESCRIPT. It is a simple and modern resume that displays my personal information, skills, and experiences.",
-    link: "https://resume-by-yousra-khan.vercel.app/"
+    link: "https://resume-builder-html-css-ts.vercel.app/"
   },
   {
     src: project2,

@@ -2,6 +2,7 @@
 
 import { FaGithub, FaLinkedin,} from 'react-icons/fa';
 import { FaSquareInstagram } from "react-icons/fa6";
+import { BsPerson } from "react-icons/bs";
 import Image from "next/image";
 import myProfile from '../../public/pic.jpg';
 import Typewriter from 'typewriter-effect';
@@ -47,6 +48,11 @@ const HeroSetion = () => {
              <Link href="https://www.instagram.com/_fumodoarishika/profilecard/?igsh=MWdpazkyOGVwdnd2MA==" >
              <FaSquareInstagram size={26} />
              </Link>
+            </button>
+            <button className="inline-flex text-white bg-gradient-to-r from-green-500 to-green-700 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 hover:shadow-xl transform hover:scale-110 transition-all duration-500 text-lg rounded-full animate-pulse">
+              <Link href="https://resume-builder-html-css-ts.vercel.app/">
+                <BsPerson size={26} />
+              </Link>
             </button>
           </div>
         </div>
