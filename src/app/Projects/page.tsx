@@ -24,10 +24,19 @@ import project18 from '../../public/project18.jpg';
 import project19 from '../../public/project19.jpg';
 import project20 from '../../public/project20.jpg';
 import project21 from '../../public/project21.jpg';
+import project22 from '../../public/project22.jpg';
+import project23 from '../../public/project23.jpg';
 
 
 
 const projects = [
+  {
+   src: project22,
+   alt: "SOLID ODYSSEY FURNITURE WEBSITE",
+   title: "SOLID ODYSSEY FURNITURE WEBSITE",
+   description: "A website for a furniture company that showcases their products and services. It is built with Next.js, Tailwind CSS, and Sanity CMS. The website is fully responsive and has a modern design.",
+   link: "https://solid-odyssey.vercel.app/"
+  },
   {
     src: project13,
     alt:"COMFORTY SOFA WEBSITE",
@@ -53,28 +62,35 @@ const projects = [
     src: project19,
     alt: "ASKARI INSTITUTE WEBSITE",
     title: "ASKARI INSTITUTE WEBSITE",
-    description: "This askari institute website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for askari institute items. Users can also add items to their cart and view their cart.",
+    description: "It is an institute website that provides information about the courses and services offered by the Askari Institute.",
     link: "https://askary-institute-web.vercel.app/"
   },
   {
     src: project21,
     alt: "DDSGNR INTERNATIONAL INSTIUTE WEBSITE",
     title: "DDSGNR INTERNATIONAL INSTIUTE WEBSITE",
-    description: "This DDSGNR international institute website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for DDSGNR international institute items. Users can also add items to their cart and view their cart.",
+    description: "This DDSGNR international website that helps can find their tutors.",
     link: "https://06-class-assignment-nextjs.vercel.app/"
+  },
+  {
+    src: project23,
+    alt: "THE VISUAL CHESS",
+    title: "THE VISUAL CHESS",
+    description: "The visual chess is an international company.",
+    link: "https://visual-chess.vercel.app/"
   },
   {
     src: project16,
     alt: "E COMMERCE CLOTHING WEBSITE",
     title: "E COMMERCE CLOTHING WEBSITE",
-    description: "This e-commerce clothing website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for clothing items. Users can also add items to their cart and view their cart.",
+    description: "This e-commerce clothing website, It is a full-stack web application that allows users to view and search for clothing items. Users can also add items to their cart and view their cart.",
     link: "https://e-commerce-website-milestone-3-yousra-khan.vercel.app/"
   },
   {
     src: project18,
     alt: "TECHNOVA SOFTWARE HOUSE WEBSITE",
     title: "TECHNOVA SOFTWARE HOUSE WEBSITE",
-    description: "This software house website is built with Next.js and Tailwind CSS. It is a full-stack web application that allows users to view and search for software house items. Users can also add items to their cart and view their cart.",
+    description: "Software house website that provides information about the services and products offered by Technova Software House.",
     link: "https://technova-zeta.vercel.app/"
   },
   {
