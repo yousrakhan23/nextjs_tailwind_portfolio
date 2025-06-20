@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin,} from 'react-icons/fa';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { BsPerson } from "react-icons/bs";
 import Image from "next/image";
-import myProfile from '../../public/pic.jpg';
+import myProfile from '../../public/sample.png';
 import Typewriter from 'typewriter-effect';
 import Link from "next/link";
 
