@@ -31,19 +31,20 @@ import project24 from '../../public/project24.jpg';
 
 
 const projects = [
-  {
-   src: project24,
-   alt: "LightYear AI",
-   title: "LightYear AI",
-   description: "A website for a furniture company that showcases their products and services. It is built with Next.js, Tailwind CSS, and Sanity CMS. The website is fully responsive and has a modern design.",
-   link: "https://solid-odyssey.vercel.app/"
-  },
+  
   {
    src: project22,
    alt: "SOLID ODYSSEY FURNITURE WEBSITE",
    title: "SOLID ODYSSEY FURNITURE WEBSITE",
    description: "A website for a furniture company that showcases their products and services. It is built with Next.js, Tailwind CSS, and Sanity CMS. The website is fully responsive and has a modern design.",
    link: "https://solid-odyssey.vercel.app/"
+  },
+  {
+   src: project24,
+   alt: "LightYear AI",
+   title: "LIGHTYEAR AI",
+   description: "LightYear AI is a website that provides information about the LightYear AI product. It is built with Next.js, Tailwind CSS, and Sanity CMS. The website is fully responsive and has a modern design.",
+   link: "https://light-year-steel.vercel.app/"
   },
   {
     src: project13,
